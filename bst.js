@@ -6,7 +6,6 @@ class Node {
     }
     }
     
-    
     class BST {
            constructor(){
            this.root = new Node(null)
@@ -55,9 +54,7 @@ class Node {
     return visited
     }
       
-
 search (val) {
-
 
     let current = this.root;
     while (current) {
@@ -102,4 +99,5 @@ getRootNode()
 {
     return this.root;
 }
+
 }
