@@ -72,7 +72,6 @@ search (val) {
     return false;
   }
 
-
 print_pre_order (node) { {
     if(node !== null)
     {
