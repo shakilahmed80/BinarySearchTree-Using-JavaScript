@@ -21,7 +21,13 @@ const tree = new BST()
 			tree.insert(11)
 			tree.insert(72)
 
-console.log(tree.print_level_order())
+var root = tree.getRootNode();
+
+console.log("Preorder number");
+tree.print_pre_order(root);
+
+console.log("Postorder number");
+tree.print_post_order(root);
 
 </script>
 </body>
