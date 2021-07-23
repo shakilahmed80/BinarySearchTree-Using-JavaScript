@@ -31,7 +31,6 @@ class Node {
        this.insert_val(val, node.right)
     } }
       
-      
     print_level_order () {
           if (this.root.val == null)
           return "Empty tree"
