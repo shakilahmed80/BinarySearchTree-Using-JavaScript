@@ -80,6 +80,7 @@ print_pre_order (node) { {
     }
 }
 }
+
 getRootNode()
 {
     return this.root;
