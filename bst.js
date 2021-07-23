@@ -96,6 +96,8 @@ print_post_order(node) { {
     }
 }
 }
+
+
 getRootNode()
 {
     return this.root;
